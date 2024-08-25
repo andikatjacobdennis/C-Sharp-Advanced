@@ -290,31 +290,61 @@
 16.20 Best Practices for TPL  
 
 ### **17. Security and Cryptography**
-17.1 Introduction to Security in C#  
-17.2 Cryptography Basics in .NET  
-17.3 Implementing Secure Authentication  
-17.4 Data Encryption and Decryption  
-17.5 Using Secure Communication Protocols  
-17.6 Key Management and Storage  
-17.7 Secure Storage Practices  
-17.8 Implementing Role-Based Access Control (RBAC)  
-17.9 Secure Coding Practices  
-17.10 Handling Security Vulnerabilities  
-17.11 Securing Web Applications  
-17.12 Data Integrity and Validation  
-17.13 Cryptographic Algorithms  
-17.14 Secure API Design  
-17.15 Authentication Protocols  
-17.16 Secure Data Transmission  
-17.17 Cryptography in Cloud Environments  
-17.18 Implementing Secure Cookies  
-17.19 Protecting Sensitive Data  
-17.20 Security in Microservices Architecture  
-17.21 Using `SecureString`  
-17.22 Implementing Public/Private Key Encryption  
-17.23 Using Certificates for Security  
-17.24 Secure Coding Practices with Cryptography  
-17.25 Advanced Cryptography Techniques  
+
+#### **Introduction to Security and Cryptography**
+17.1 Importance of Security in Software Development  
+17.2 Overview of Cryptography  
+
+#### **Fundamentals of Cryptography**
+17.3 Symmetric vs. Asymmetric Cryptography  
+17.4 Hash Functions  
+17.5 Digital Signatures  
+17.6 Key Management  
+
+#### **Cryptographic Algorithms in C#**
+17.7 AES (Advanced Encryption Standard)  
+17.8 RSA (Rivest-Shamir-Adleman)  
+17.9 SHA (Secure Hash Algorithm) Variants  
+17.10 HMAC (Hash-based Message Authentication Code)  
+
+#### **Using the .NET Cryptography Library**
+17.11 Overview of `System.Security.Cryptography` Namespace  
+17.12 Implementing Symmetric Encryption  
+17.13 Implementing Asymmetric Encryption  
+17.14 Generating Hashes  
+
+#### **Secure Data Transmission**
+17.15 SSL/TLS Overview  
+17.16 Implementing HTTPS in C# Applications  
+17.17 Using Certificates for Secure Communication  
+
+#### **Authentication and Authorization**
+17.18 Overview of Authentication Mechanisms  
+17.19 Implementing OAuth 2.0 in C#  
+17.20 Role-Based Access Control (RBAC)  
+17.21 Implementing Two-Factor Authentication (2FA)  
+17.22 Secure Token Management  
+
+#### **Best Practices for Secure Coding**
+17.23 Input Validation and Sanitization  
+17.24 Avoiding Common Vulnerabilities (e.g., SQL Injection, XSS)  
+17.25 Secure Password Storage  
+17.26 Secure Coding Practices for API Development  
+17.27 Data Encryption at Rest and in Transit  
+
+#### **Security Testing and Auditing**
+17.28 Tools for Security Testing in C#  
+17.29 Conducting Security Audits  
+17.30 Penetration Testing Basics  
+17.31 Static and Dynamic Code Analysis  
+17.32 Security Vulnerability Assessment Tools  
+
+#### **Advanced Cryptography Techniques**
+17.33 Implementing Public/Private Key Encryption  
+17.34 Using Cryptographic Libraries and APIs  
+17.35 Cryptography in Cloud Environments  
+17.36 Advanced Encryption Techniques  
+17.37 Cryptographic Protocols and Standards  
 
 ### **18. XML Processing**
 18.1 Introduction to XML  
