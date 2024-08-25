@@ -574,7 +574,7 @@
 - Ensuring Compatibility with .NET Applications
 - Keeping COM+ Components Secure and Reliable
 
-#### **29. Visual Studio Shortcuts for C#**
+### **29. Visual Studio Shortcuts for C#**
 29.1. Code Editing
 29.2. Navigation
 29.3. Code Generation
