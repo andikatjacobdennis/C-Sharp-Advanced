@@ -1,29 +1,12 @@
-Here’s the revised and expanded Table of Contents (TOC) with more topics added and large sections broken down into smaller sections for better organization:
-
----
-
 ### **Comprehensive C# Tutorial Table of Contents**
 
 #### **1. Introduction to C#**
 1.1 What is C#?  
-1.2 History and Evolution  
-1.3 Setting Up the Development Environment  
-1.4 Hello World Program  
-1.5 C# Language Fundamentals  
-1.6 C# Programming Paradigms  
-1.7 C# Compiler and Runtime  
-1.8 C# vs. Other Programming Languages  
-1.9 Understanding C# Frameworks and Libraries  
-1.10 Project Structure and Organization  
-1.11 Managing Dependencies and Packages  
-1.12 C# Language Syntax and Semantics  
-1.13 Object-Oriented Programming in C#  
-1.14 Functional Programming Features  
-1.15 Modern C# Enhancements  
-1.16 Language Features Comparison  
-1.17 How C# Interacts with the CLR  
-1.18 C# and Cross-Platform Development  
-1.19 Evolution of C# Standards  
+1.2 C# Language Fundamentals  
+1.3 C# Programming Paradigms  
+1.4 C# Compiler and Runtime  
+1.5 Object-Oriented Programming in C#  
+1.6 How C# Interacts with the CLR  
 
 #### **2. Basic Data Types and Variables**
 2.1 Primitive Data Types  
@@ -491,9 +474,7 @@ Info and DirectoryInfo
 18.7 Logging Best Practices  
 18.8 Using Profiler Tools  
 18.9 Performance Counters and Metrics  
-18.10
-
- Troubleshooting Common Issues  
+18.10 Troubleshooting Common Issues  
 18.11 Advanced Debugging Scenarios  
 18.12 Memory Usage and Garbage Collection  
 18.13 Code Coverage Analysis  
@@ -535,33 +516,4 @@ Info and DirectoryInfo
 19.22 Implementing OAuth and OpenID Connect  
 19.23 Security in Microservices  
 19.24 Managing Security in DevOps Pipelines  
-19.25 Cryptographic Algorithms and Their Applications  
-
-#### **20. Cloud Integration and Deployment**
-20.1 Introduction to Cloud Computing  
-20.2 Deploying .NET Applications to Azure  
-20.3 Using Azure DevOps for CI/CD  
-20.4 Configuring Azure Resources  
-20.5 Managing Cloud Storage  
-20.6 Implementing Cloud-Based Databases  
-20.7 Monitoring and Managing Cloud Applications  
-20.8 Secure Cloud Deployment Practices  
-20.9 Scaling and Load Balancing in the Cloud  
-20.10 Cloud Backup and Recovery  
-20.11 Integrating with Third-Party Cloud Services  
-20.12 Using Azure Functions  
-20.13 Building Serverless Applications  
-20.14 Implementing Cloud Security Best Practices  
-20.15 Working with Azure Cognitive Services  
-20.16 Deploying Containers with Azure Kubernetes Service  
-20.17 Cloud Application Architecture Patterns  
-20.18 Managing Secrets and Configuration  
-20.19 Cost Management in Cloud Deployment  
-20.20 Cloud Performance Optimization  
-20.21 Creating and Managing Cloud Resources  
-20.22 Implementing Multi-Region Deployments  
-20.23 Disaster Recovery Planning  
-20.24 Cloud Migration Strategies  
-20.25 Monitoring Cloud Costs and Usage  
-
-Let me know if you'd like any additional details or adjustments!
+19.25 Cryptographic Algorithms and Their Applications
