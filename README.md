@@ -423,6 +423,20 @@
 23.9 Handling Exceptions in Iterators  
 23.10 Advanced Iterator Techniques
 
+### **24. Asynchronous Programming**
+24.1 Introduction to Asynchronous Programming  
+24.2 Asynchronous Programming Patterns  
+24.3 Task-based Asynchronous Programming  
+24.4 Asynchronous Streams  
+24.5 Managing Asynchronous Operations  
+24.6 Handling Asynchronous Errors  
+24.7 Async/Await Best Practices  
+24.8 Real-World Asynchronous Use Cases  
+24.9 Performance Considerations for Async Code  
+24.10 Debugging Asynchronous Code  
+24.11 Cancellation Tokens in Async Programming  
+24.12 Advanced Async/Await Scenarios  
+
 ### **25. Performance Optimization**
 25.1 Introduction to Performance Optimization  
 25.2 Profiling .NET Applications  
@@ -463,18 +477,4 @@
 27.8 Source Generators  
 27.9 Nullable Reference Types  
 27.10 Advanced Attribute Usage  
-27.11 Nullable Types and Conditional Compilation  
-
-### **28. Asynchronous Programming**
-28.1 Introduction to Asynchronous Programming  
-28.2 Asynchronous Programming Patterns  
-28.3 Task-based Asynchronous Programming  
-28.4 Asynchronous Streams  
-28.5 Managing Asynchronous Operations  
-28.6 Handling Asynchronous Errors  
-28.7 Async/Await Best Practices  
-28.8 Real-World Asynchronous Use Cases  
-28.9 Performance Considerations for Async Code  
-28.10 Debugging Asynchronous Code  
-28.11 Cancellation Tokens in Async Programming  
-28.12 Advanced Async/Await Scenarios  
+27.11 Nullable Types and Conditional Compilation
