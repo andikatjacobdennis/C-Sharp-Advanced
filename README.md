@@ -576,13 +576,13 @@
 
 #### **29. Visual Studio Shortcuts for C#**
 29.1. Code Editing
-- 29.2. Navigation
-- 29.3. Code Generation
-- 29.4. Debugging
-- 29.5. Refactoring
-- 29.6. Project and Solution Management
-- 29.7. Window Management
-- 29.8. Code Navigation and Search
-- 29.9. Bookmarks
-- 29.10. Breakpoints
-- 29.11. Miscellaneous
+29.2. Navigation
+29.3. Code Generation
+29.4. Debugging
+29.5. Refactoring
+29.6. Project and Solution Management
+29.7. Window Management
+29.8. Code Navigation and Search
+29.9. Bookmarks
+29.10. Breakpoints
+29.11. Miscellaneous
