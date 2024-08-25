@@ -1,7 +1,3 @@
-Here's the revised Table of Contents with some topics removed to streamline the content:
-
----
-
 ### **1. Introduction to C#**
 1.1 Overview of C#  
 1.2 C# Language Fundamentals  
@@ -58,6 +54,8 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 5.8 Anonymous Methods  
 5.9 Extension Methods  
 5.10 Asynchronous Methods and `async`/`await`  
+5.11 Yield Statements and Iterators  
+5.12 Functional Programming with Methods  
 
 ### **6. Object-Oriented Programming**
 6.1 Classes and Objects  
@@ -81,6 +79,8 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 7.8 Memory Management  
 7.9 Delegates and Events  
 7.10 Inversion of Control  
+7.11 Extension Methods  
+7.12 Composite Patterns  
 
 ### **8. LINQ (Language Integrated Query)**
 8.1 Introduction to LINQ  
@@ -103,6 +103,11 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 8.18 Using LINQ with Collections  
 8.19 Understanding `IQueryable` vs. `IEnumerable`  
 8.20 LINQ Expressions and Expression Trees  
+8.21 LINQ with Nested Queries  
+8.22 Advanced Query Techniques  
+8.23 Transforming Data with LINQ  
+8.24 Query Optimization  
+8.25 Error Handling in LINQ  
 
 ### **9. Delegates and Events**
 9.1 Introduction to Delegates  
@@ -115,6 +120,9 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 9.8 Event Aggregator Pattern  
 9.9 Understanding Delegate Invocation Lists  
 9.10 Lambda Expressions with Delegates  
+9.11 Covariance and Contravariance in Delegates  
+9.12 Synchronizing Event Handlers  
+9.13 Dynamic Event Handling  
 
 ### **10. File Operations**
 10.1 File I/O Basics  
@@ -127,6 +135,10 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 10.8 File Encryption and Decryption  
 10.9 Working with Streams  
 10.10 Directory Traversal Techniques  
+10.11 Handling Large Files  
+10.12 Asynchronous File Operations  
+10.13 File Compression and Decompression  
+10.14 File System Watcher  
 
 ### **11. Reflection**
 11.1 Introduction to Reflection  
@@ -144,6 +156,8 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 11.13 Advanced Reflection Techniques  
 11.14 Working with Private Members  
 11.15 Handling Reflection Exceptions  
+11.16 Dynamic Object Creation  
+11.17 Reflection in Frameworks  
 
 ### **12. Threads and Parallel Programming**
 12.1 Introduction to Multithreading  
@@ -166,6 +180,11 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 12.18 Background Threads  
 12.19 Thread Management in ASP.NET  
 12.20 Real-World Multithreading Scenarios  
+12.21 Thread Local Storage  
+12.22 Task Parallelism vs. Asynchronous Programming  
+12.23 Thread Scheduling and Priorities  
+12.24 Performance Implications of Multithreading  
+12.25 Designing Thread-Safe Code  
 
 ### **13. Task Parallel Library (TPL)**
 13.1 Introduction to TPL  
@@ -185,9 +204,12 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 13.15 Handling Long-Running Tasks  
 13.16 Task Dataflow and `System.Threading.Tasks.Dataflow`  
 13.17 Managing Task Dependencies  
-13.18 Task Debugging and Profiling  
-13.19 Task-Based Asynchronous Pattern (TAP)  
-13.20 Leveraging Task Return Types  
+13.18 Task-Based Asynchronous Pattern (TAP)  
+13.19 Leveraging Task Return Types  
+13.20 Advanced Task Management  
+13.21 Task Scheduling Algorithms  
+13.22 Task Parallelism and I/O Bound Work  
+13.23 Debugging and Profiling Tasks  
 
 ### **14. New C# Features and Updates**
 14.1 C# 8.0 Features  
@@ -209,6 +231,13 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 14.17 Advanced Pattern Matching  
 14.18 New Language Keywords  
 14.19 Modern C# Coding Best Practices  
+14.20 New Syntax Features  
+14.21 Language and Library Improvements  
+14.22 Working with New Language Features  
+14.23 Compatibility with .NET Versions  
+14.24 Refactoring with New Features  
+14.25 Future Trends in C#  
+14.26 Leveraging New Features in ASP.NET Core  
 
 ### **15. Garbage Collection and GC Patterns**
 15.1 Introduction to Garbage Collection  
@@ -222,60 +251,49 @@ Here's the revised Table of Contents with some topics removed to streamline the 
 15.9 Implementing Finalizer and Dispose Patterns  
 15.10 Understanding Weak References  
 15.11 Preventing Memory Leaks  
-15.12 Best Practices for GC Optimization  
-15.13 Analyzing GC Performance  
-15.14 GC in Large-Scale Applications  
-15.15 Handling Object Lifetimes  
-15.16 Understanding GC Pause Times  
-15.17 Configuring GC Settings  
-15.18 GC in .NET Core vs. .NET Framework  
-15.19 Handling GC in Asynchronous Code  
-15.20 Advanced GC Techniques  
+15.
 
-### **16. Method Overloading and Operator Overloading**
-16.1 Method Overloading Basics  
-16.2 Method Overloading Rules  
-16.3 Method Overloading with Optional Parameters  
-16.4 Constructor Overloading  
-16.5 Operator Overloading Basics  
-16.6 Operator Overloading Syntax  
-16.7 Commonly Overloaded Operators  
-16.8 Overloading Comparison Operators  
-16.9 Operator Overloading Best Practices  
-16.10 Combining Overloaded Methods and Operators  
+12 Event and Delegate Dereferencing  
+15.13 Handling Unsafe Code with GC  
+15.14 Managing Large Object Heap (LOH)  
+15.15 Memory Pressure and GC  
+15.16 Analyzing GC Logs  
+15.17 Tuning GC Performance  
+15.18 Handling Non-Managed Code  
+15.19 Using `IDisposable` Correctly  
+15.20 GC Performance Tools  
+15.21 Custom Memory Management  
 
-### **17. Advanced Features and Patterns**
-17.1 Advanced LINQ Patterns  
-17.2 Dynamic Programming Techniques  
-17.3 Functional Programming Concepts  
-17.4 Aspect-Oriented Programming (AOP)  
-17.5 Dependency Injection Patterns  
-17.6 Event Sourcing and CQRS  
-17.7 Advanced Reflection Techniques  
-17.8 Code Generation and T4 Templates  
-17.9 Memory Management Techniques  
-17.10 Performance Optimization Strategies  
+### **16. Debugging and Profiling**
+16.1 Debugging Tools and Techniques  
+16.2 Troubleshooting Common Issues  
+16.3 Advanced Debugging Scenarios  
+16.4 Memory Usage and Garbage Collection  
+16.5 Code Coverage Analysis  
+16.6 Profiling Asynchronous Code  
+16.7 Debugging Multi-threaded Applications  
+16.8 Profiling ASP.NET Core Applications  
+16.9 Real-Time Application Monitoring  
+16.10 Analyzing Performance Bottlenecks  
+16.11 Debugging Production Issues  
+16.12 Performance Profiling Tools  
+16.13 Exception Tracking  
+16.14 Debugging with Visual Studio  
+16.15 Remote Debugging  
 
-### **18. Debugging and Profiling**
-18.1 Introduction to Debugging  
-18.2 Debugging Tools and Techniques  
-18.3 Troubleshooting Common Issues  
-18.4 Advanced Debugging Scenarios  
-18.5 Memory Usage and Garbage Collection  
-18.6 Code Coverage Analysis  
-18.7 Profiling Asynchronous Code  
-18.8 Debugging Multi-threaded Applications  
-18.9 Profiling ASP.NET Core Applications  
-18.10 Real-Time Application Monitoring  
-
-### **19. Security and Cryptography**
-19.1 Introduction to Security in .NET  
-19.2 Cryptography Basics  
-19.3 Implementing Secure Authentication  
-19.4 Data Encryption and Decryption  
-19.5 Using Secure Communication Protocols  
-19.6 Key Management and Storage  
-19.7 Secure Storage Practices  
-19.8 Implementing Role-Based Access Control (RBAC)  
-19.9 Secure Coding Practices  
-19.10 Handling Security Vulnerabilities  
+### **17. Security and Cryptography**
+17.1 Introduction to Security in .NET  
+17.2 Cryptography Basics  
+17.3 Implementing Secure Authentication  
+17.4 Data Encryption and Decryption  
+17.5 Using Secure Communication Protocols  
+17.6 Key Management and Storage  
+17.7 Secure Storage Practices  
+17.8 Implementing Role-Based Access Control (RBAC)  
+17.9 Secure Coding Practices  
+17.10 Handling Security Vulnerabilities  
+17.11 Securing Web Applications  
+17.12 Data Integrity and Validation  
+17.13 Cryptographic Algorithms  
+17.14 Secure API Design  
+17.15 Authentication Protocols
