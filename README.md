@@ -508,3 +508,68 @@
 27.9 Nullable Reference Types  
 27.10 Advanced Attribute Usage  
 27.11 Nullable Types and Conditional Compilation
+
+### **28. Using COM+ in C#**
+
+#### **28.1 Introduction to COM+**
+- Overview of COM+ (Component Object Model Plus)
+- Key Features and Benefits of COM+
+- Differences Between COM and COM+
+- Use Cases for COM+ in Modern Applications
+
+#### **28.2 Setting Up COM+**
+- Installing and Configuring COM+ on Windows
+- Using Component Services for COM+ Management
+- Registering COM+ Components
+
+#### **28.3 Creating COM+ Components in C#**
+- Defining COM+ Components
+- Implementing COM+ Components in C#
+  - Creating a C# Class Library
+  - Implementing a COM+ Interface
+  - Decorating Classes with `[ComVisible]` Attribute
+- Building and Registering COM+ Components
+
+#### **28.4 Configuring COM+ Applications**
+- Creating a COM+ Application in Component Services
+- Configuring Application Properties (e.g., Access, Activation)
+- Managing COM+ Application Components
+
+#### **28.5 Interacting with COM+ from C#**
+- Calling COM+ Components from C# Applications
+  - Importing and Using COM+ Libraries
+  - Handling COM+ Exceptions
+- Integrating COM+ Components with .NET Applications
+  - Using `Interop` Assemblies
+  - Implementing COM+ Transactions
+
+#### **28.6 COM+ Transactions**
+- Understanding COM+ Transaction Management
+- Configuring Transactions in COM+ Applications
+- Using Transactions in C# Code
+  - `TransactionScope` in .NET
+  - Handling Transaction Rollbacks and Commits
+
+#### **28.7 Security in COM+**
+- Configuring Security Settings in COM+
+- Implementing Role-Based Security
+- Handling Authentication and Authorization
+- Managing Security Policies and Permissions
+
+#### **28.8 Debugging and Troubleshooting COM+ Applications**
+- Common Issues and Solutions
+- Debugging COM+ Components in Visual Studio
+- Using Event Logs and Diagnostic Tools
+- Analyzing COM+ Performance and Resource Usage
+
+#### **28.9 Advanced COM+ Features**
+- Using Queued Components in COM+
+- Implementing Asynchronous Processing
+- Leveraging COM+ for Distributed Applications
+- Handling COM+ Object Pooling and Recycling
+
+#### **28.10 Best Practices for Using COM+**
+- Designing COM+ Components for Scalability and Performance
+- Best Practices for Managing COM+ Resources
+- Ensuring Compatibility with .NET Applications
+- Keeping COM+ Components Secure and Reliable
